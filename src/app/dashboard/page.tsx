@@ -17,7 +17,7 @@ export default async function Home() {
             try {
                 await getActivities();
             } catch (error) {
-                console.error(error);
+                console.log(error);
             }
         }
         fetchData();
